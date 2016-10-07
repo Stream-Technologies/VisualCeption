@@ -1,5 +1,5 @@
 {
-    "name": "stream-technologies/visualception",
+    "name": "streamtechnologies/visualception",
     "description": "Visual regression tests integrated in Codeception",
     "type": "library",
     "license": "MIT",
