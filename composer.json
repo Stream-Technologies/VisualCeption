@@ -1,0 +1,14 @@
+{
+    "name": "stream-technologies/visualception",
+    "description": "Visual regression tests integrated in Codeception",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": [
+            "module/"
+        ]
+    }
+}

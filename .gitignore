@@ -1,3 +1,11 @@
 .buildpath
 .project
 .settings/
+
+# Jetbrains
+.idea/
+*.iws
+
+# Composer
+composer.phar
+/vendor/
