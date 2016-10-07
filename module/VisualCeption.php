@@ -121,7 +121,7 @@ class VisualCeption extends CodeceptionModule
                 $compareScreenshotPath = $this->getDeviationScreenshotPath($identifier);
                 $deviationResult["deviationImage"]->writeImage($compareScreenshotPath);
 
-                throw new ImageDeviationException("The deviation of the taken screenshot is too hight (" . $deviationResult["deviation"] . "%).\nSee $compareScreenshotPath for a deviation screenshot.",
+                throw new ImageDeviationException("The deviation of the taken screenshot is too high (" . $deviationResult["deviation"] . "%).\nSee $compareScreenshotPath for a deviation screenshot.",
                     $this->getExpectedScreenshotPath($identifier),
                     $this->getScreenshotPath($identifier),
                     $compareScreenshotPath);
